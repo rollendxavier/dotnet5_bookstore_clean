@@ -1,6 +1,6 @@
 ﻿namespace Bookstore.Domain.Models
 {
-    public abstract class BookCategory
+    public class BookCategory
     {
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }

@@ -15,6 +15,5 @@ namespace Bookstore.Console
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostBuilderContext, serviceCollection) =>
                 new Startup(hostBuilderContext.Configuration).ConfigureServices(serviceCollection));
-
     }
 }

@@ -1,13 +1,10 @@
-﻿using Bookstore.Data.Mappings;
-using Bookstore.Domain.Interfaces;
+﻿using Bookstore.Domain.Interfaces;
 using Bookstore.Domain.Models;
 using CsvHelper;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Reflection;
-using System.Text;
 
 namespace Bookstore.Data
 {
@@ -23,9 +20,8 @@ namespace Bookstore.Data
 
             try
             {
-                using var reader = new StreamReader(bookLocation);
-                using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
-                csv.Context.RegisterClassMap<BookMap>();
+                var reader = new StreamReader(bookLocation);
+                var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
                 var records = csv.GetRecords<Book>();
                 return records;
             }
@@ -41,9 +37,8 @@ namespace Bookstore.Data
 
             try
             {
-                using var reader = new StreamReader(categoryLocation);
-                using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
-                csv.Context.RegisterClassMap<BookCategoryMap>();
+                var reader = new StreamReader(categoryLocation);
+                var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
                 var records = csv.GetRecords<BookCategory>();
                 return records;
             }

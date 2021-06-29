@@ -1,8 +1,8 @@
 ﻿BookId,Title,Author,CategoryId,Price
-1,Unsolved murders,Emily G. Thompson & Amber Hunt,1,"	10.99"
-2,Alice in Wonderland,"	Lewis Carroll",3,"	5.99"
-3,A Little Love Story,"	Roland Merullo",2,"	2.40"
-4,Heresy,"	S J Parris",3,"	6.80"
-5,The Neverending Story,"	Michael Ende",3,"	7.99"
-6,Jack the Ripper,"	Philip & Sugden",1,"	16.00"
-7,The Tolkien Years,"	Greg Hildebrandt",3,"	22.90"
+1,Unsolved murders,Emily G. Thompson and Amber Hunt,1,10.99
+2,Alice in Wonderland,Lewis Carroll,3,5.99
+3,A Little Love Story,Roland Merullo,2,2.40
+4,Heresy,S J Parris,3,6.80
+5,The Neverending Story,Michael Ende,3,7.99
+6,Jack the Ripper,Philip & Sugden,1,16.00
+7,The Tolkien Years,Greg Hildebrandt,3,22.90
